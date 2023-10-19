@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
-    
+    <main class="panel">
+        <span class="game-text" id="demo">Rock Paper Sicssors!<br> Choose and option to see if you win!</span>
+        <section class="game-choices-container">
+            <button onClick="didPlayerWin(1)" class="game-choices">Rock</button>
+            <button onClick="didPlayerWin(2)" class="game-choices">Paper</button>
+            <button onClick="didPlayerWin(3)"class="game-choices">Scissor</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
