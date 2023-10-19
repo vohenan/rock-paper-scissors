@@ -1,3 +1,42 @@
 body{
     background-color: lightgreen;
+    margin: 0;
+}
+
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5em;
+}
+
+.game-text{
+height: 50px;
+width: 400px;
+font-size: 2em;
+font-weight: 700;
+text-align: center;
+}
+
+.game-choices-container{
+width: 400px;
+height: 80px;
+font-size: 1.5em;
+display: flex;
+gap: 3em;
+}
+
+.game-choices
+{
+height: 80px;
+width: 80px;
+border: 3px blueviolet solid;
+border-radius: 0.5em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.game-choices:hover{
+    background-color: violet;
 }
